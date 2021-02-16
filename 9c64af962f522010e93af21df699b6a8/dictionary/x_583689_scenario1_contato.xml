@@ -2,7 +2,7 @@
     <element label="Contato" max_length="40" name="x_583689_scenario1_contato" type="collection">
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Nome" max_length="50" name="nome" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Sobrenome" max_length="50" name="sobrenome" type="string"/>
         <index name="index">
             <element name="number"/>
