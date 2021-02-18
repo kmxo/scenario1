@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="time_preferido" label="Time preferido" language="en" table="x_583689_scenario1_contato">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>time_preferido</element>
+            <help/>
+            <hint/>
+            <label>Time preferido</label>
+            <language>en</language>
+            <name>x_583689_scenario1_contato</name>
+            <plural>Time preferidos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-18 17:39:54</sys_created_on>
+            <sys_id>66965b9f2f162010e93af21df699b61a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Time preferido</sys_name>
+            <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
+            <sys_update_name>sys_documentation_x_583689_scenario1_contato_time_preferido_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-18 17:39:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

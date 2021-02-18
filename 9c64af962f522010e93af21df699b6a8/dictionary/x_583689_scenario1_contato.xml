@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Contato" max_length="40" name="x_583689_scenario1_contato" sizeclass="22" type="collection">
         <element label="Email" max_length="40" name="email" type="string"/>
-        <element label="Nome" max_length="50" name="nome" type="string"/>
+        <element label="Joga futebol?" max_length="40" name="joga_futebol" type="boolean"/>
+        <element label="Nome" mandatory="true" max_length="50" name="nome" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Obs" max_length="4000" name="obs" type="journal"/>
         <element label="Sobrenome" max_length="50" name="sobrenome" type="string"/>
+        <element choice="1" label="Time preferido" max_length="40" name="time_preferido" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corinthians" sequence="1" value="corinthians"/>
+                <element inactive_on_update="false" label="São Paulo" sequence="2" value="saopaulo"/>
+                <element inactive_on_update="false" label="Santos" sequence="3" value="santos"/>
+                <element inactive_on_update="false" label="Palmeiras" sequence="4" value="palmeiras"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="number"/>
         </index>
