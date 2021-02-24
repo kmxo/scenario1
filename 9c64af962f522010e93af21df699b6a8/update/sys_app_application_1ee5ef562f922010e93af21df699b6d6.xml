@@ -7,14 +7,14 @@
         <hint/>
         <name>Contatos1</name>
         <order>100</order>
-        <roles>x_583689_scenario1.admin,x_583689_scenario1.contato_user</roles>
+        <roles>x_583689_scenario1.contato_role1,x_583689_scenario1.contato_role2</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 16:12:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ee5ef562f922010e93af21df699b6d6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Contatos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
         <sys_update_name>sys_app_application_1ee5ef562f922010e93af21df699b6d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-19 22:11:27</sys_updated_on>
+        <sys_updated_on>2021-02-24 22:40:48</sys_updated_on>
         <title>Contatos</title>
         <view_name/>
     </sys_app_application>

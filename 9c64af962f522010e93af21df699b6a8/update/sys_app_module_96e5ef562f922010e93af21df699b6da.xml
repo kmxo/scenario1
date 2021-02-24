@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_583689_scenario1.admin</roles>
+        <roles>x_583689_scenario1.contato_role1</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 16:12:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>96e5ef562f922010e93af21df699b6da</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Todos os Contatos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
         <sys_update_name>sys_app_module_96e5ef562f922010e93af21df699b6da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-19 21:27:42</sys_updated_on>
+        <sys_updated_on>2021-02-24 23:01:24</sys_updated_on>
         <timeline_page/>
         <title>Todos os Contatos</title>
         <uncancelable>false</uncancelable>
