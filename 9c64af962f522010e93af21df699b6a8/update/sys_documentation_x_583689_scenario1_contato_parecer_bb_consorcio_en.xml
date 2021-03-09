@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="joga_futebol" label="Joga futebol?" language="en" table="x_583689_scenario1_contato">
+    <sys_documentation element="parecer_bb_consorcio" label="Parecer BB Consórcio" language="en" table="x_583689_scenario1_contato">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>joga_futebol</element>
+            <element>parecer_bb_consorcio</element>
             <help/>
             <hint/>
-            <label>Joga futebol?</label>
+            <label>Parecer BB Consórcio</label>
             <language>en</language>
             <name>x_583689_scenario1_contato</name>
-            <plural>Joga futebol?s</plural>
+            <plural>Parecer BB Consórcios</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 17:50:45</sys_created_on>
-            <sys_id>e1191b132f562010e93af21df699b6e3</sys_id>
+            <sys_created_on>2021-03-09 18:51:22</sys_created_on>
+            <sys_id>262d51692fb22010e93af21df699b627</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Joga futebol?</sys_name>
+            <sys_name>Parecer BB Consórcio</sys_name>
             <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
             <sys_policy/>
             <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
-            <sys_update_name>sys_documentation_x_583689_scenario1_contato_joga_futebol_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_583689_scenario1_contato_parecer_bb_consorcio_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:50:45</sys_updated_on>
+            <sys_updated_on>2021-03-09 18:51:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

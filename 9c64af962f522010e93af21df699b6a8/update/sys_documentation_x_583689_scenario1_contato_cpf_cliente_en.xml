@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Súmula" language="en" table="x_583689_scenario1_contato">
+    <sys_documentation element="cpf_cliente" label="CPF Cliente" language="en" table="x_583689_scenario1_contato">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>cpf_cliente</element>
             <help/>
             <hint/>
-            <label>Súmula</label>
+            <label>CPF Cliente</label>
             <language>en</language>
             <name>x_583689_scenario1_contato</name>
-            <plural>Súmulas</plural>
+            <plural>CPF Clientes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 16:12:53</sys_created_on>
-            <sys_id>7ee523962f922010e93af21df699b614</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Súmula</sys_name>
+            <sys_created_on>2021-03-09 18:49:59</sys_created_on>
+            <sys_id>6adc59292fb22010e93af21df699b6b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CPF Cliente</sys_name>
             <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
             <sys_policy/>
             <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
-            <sys_update_name>sys_documentation_x_583689_scenario1_contato__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_583689_scenario1_contato_cpf_cliente_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-09 19:36:33</sys_updated_on>
+            <sys_updated_on>2021-03-09 18:49:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

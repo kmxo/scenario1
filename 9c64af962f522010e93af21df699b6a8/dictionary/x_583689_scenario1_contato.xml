@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Contato" max_length="40" name="x_583689_scenario1_contato" sizeclass="27" type="collection">
-        <element label="Email" max_length="40" name="email" type="string"/>
-        <element label="Joga futebol?" max_length="40" name="joga_futebol" type="boolean"/>
-        <element label="Nome" mandatory="true" max_length="50" name="nome" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Obs" max_length="4000" name="obs" type="journal"/>
-        <element label="Sobrenome" max_length="50" name="sobrenome" type="string"/>
-        <element choice="1" label="Time preferido" max_length="40" name="time_preferido" type="choice">
+    <element label="Súmula" max_length="40" name="x_583689_scenario1_contato" sizeclass="31" type="collection">
+        <element label="Prefixo Agência" max_length="40" name="agencia" type="string"/>
+        <element label="Arquivo" mandatory="true" max_length="40" name="arquivo" type="file_attachment"/>
+        <element label="CPF Cliente" max_length="14" name="cpf_cliente" type="string"/>
+        <element label="Nome Cliente" max_length="50" name="nome_cliente" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Número" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Parecer BB Consórcio" mandatory="true" max_length="4000" name="parecer_bb_consorcio" type="string"/>
+        <element choice="1" default="1" label="Situação" max_length="40" name="situacao" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Corinthians" sequence="1" value="corinthians"/>
-                <element inactive_on_update="false" label="São Paulo" sequence="2" value="saopaulo"/>
-                <element inactive_on_update="false" label="Santos" sequence="3" value="santos"/>
-                <element inactive_on_update="false" label="Palmeiras" sequence="4" value="palmeiras"/>
+                <element inactive_on_update="false" label="Em Construção" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Aguardando Parecer" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Aprovado" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Reijeitado" sequence="4" value="4"/>
             </choice>
         </element>
+        <element choice="1" label="Tipo de Flexibilização" max_length="40" name="tipo_flexibilizacao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Opção 1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Opção 2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Opção 3" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Título" max_length="50" name="titulo" type="string"/>
         <index name="index">
             <element name="number"/>
         </index>
