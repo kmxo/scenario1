@@ -6,6 +6,8 @@
         <element label="Nome Cliente" max_length="50" name="nome_cliente" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Número" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Parecer BB Consórcio" mandatory="true" max_length="4000" name="parecer_bb_consorcio" type="string"/>
+        <element label="Quantidade Aprovações" max_length="40" name="qtd_aprovacoes" type="integer"/>
+        <element label="Quantidade Rejeições" max_length="40" name="qtd_rejeicoes" type="integer"/>
         <element choice="1" default="1" label="Situação" max_length="40" name="situacao" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Em Construção" sequence="1" value="1"/>
