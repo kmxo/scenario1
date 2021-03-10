@@ -5,6 +5,9 @@
         <element label="CPF Cliente" max_length="14" name="cpf_cliente" type="string"/>
         <element label="Nome Cliente" max_length="50" name="nome_cliente" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Número" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Parecer" max_length="4000" name="parecer1" type="string"/>
+        <element label="Parecer" max_length="4000" name="parecer2" type="string"/>
+        <element label="Parecer" max_length="4000" name="parecer3" type="string"/>
         <element label="Parecer BB Consórcio" mandatory="true" max_length="4000" name="parecer_bb_consorcio" type="string"/>
         <element label="Quantidade Aprovações" max_length="40" name="qtd_aprovacoes" type="integer"/>
         <element label="Quantidade Rejeições" max_length="40" name="qtd_rejeicoes" type="integer"/>
