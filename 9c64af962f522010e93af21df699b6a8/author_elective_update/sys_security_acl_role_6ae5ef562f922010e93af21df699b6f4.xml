@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 16:12:52</sys_created_on>
+        <sys_id>6ae5ef562f922010e93af21df699b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_583689_scenario1_contato.x_583689_scenario1.contato_user</sys_name>
+        <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
+        <sys_security_acl display_value="x_583689_scenario1_contato">6ae5ef562f922010e93af21df699b6f0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6ae5ef562f922010e93af21df699b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:12:52</sys_updated_on>
+        <sys_user_role display_value="x_583689_scenario1.contato_user" name="x_583689_scenario1.contato_user">9ae5af562f922010e93af21df699b60a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scenario1">9c64af962f522010e93af21df699b6a8</application>
+        <file_path/>
+        <instance_id>323e47fbdb67bb009df22f17d4961938</instance_id>
+        <instance_name>dev92909</instance_name>
+        <name>sys_security_acl_role_6ae5ef562f922010e93af21df699b6f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-15 16:12:52</sys_created_on><sys_id>6ae5ef562f922010e93af21df699b6f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_583689_scenario1_contato.x_583689_scenario1.contato_user</sys_name><sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package><sys_policy/><sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope><sys_security_acl display_value="x_583689_scenario1_contato">6ae5ef562f922010e93af21df699b6f0</sys_security_acl><sys_update_name>sys_security_acl_role_6ae5ef562f922010e93af21df699b6f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-15 16:12:52</sys_updated_on><sys_user_role display_value="x_583689_scenario1.contato_user" name="x_583689_scenario1.contato_user">9ae5af562f922010e93af21df699b60a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1512330487</payload_hash>
+        <record_name>x_583689_scenario1_contato.x_583689_scenario1.contato_user</record_name>
+        <reverted_from/>
+        <source>1064af162f922010e93af21df699b634</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 16:12:52</sys_created_on>
+        <sys_id>aee5ef562f922010e93af21df699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177a6774e790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:12:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e6e5ef56d892201016cb0a483fe367f7</update_guid>
+        <update_guid_history>e6e5ef56d892201016cb0a483fe367f7:-1512330487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_583689_scenario1_contato.x_583689_scenario1.contato_user">928347252ff62010e93af21df699b62e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 02:18:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f8812b779fa4b309efb284d65119100</sys_id>
+        <sys_metadata>6ae5ef562f922010e93af21df699b6f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_583689_scenario1_contato.x_583689_scenario1.contato_user</sys_name>
+        <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
+        <sys_parent display_value="x_583689_scenario1_contato">6ae5ef562f922010e93af21df699b6f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
+        <sys_scope_delete display_value="">160660f89518419e81e86fb3b9656ba4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6ae5ef562f922010e93af21df699b6f4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6ae5ef562f922010e93af21df699b6f4">aee5ef562f922010e93af21df699b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 02:18:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
