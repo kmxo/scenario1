@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Contato Temp" max_length="40" name="x_583689_scenario1_contato_temp" sizeclass="32" type="collection">
+    <element extends="sys_import_set_row" label="Contato Temp" max_length="40" name="x_583689_scenario1_contato_temp" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome" label="Nome" max_length="40" name="u_nome" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>

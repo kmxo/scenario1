@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Súmula" max_length="40" name="x_583689_scenario1_contato" sizeclass="5" type="collection">
+    <element label="Súmula" max_length="40" name="x_583689_scenario1_contato" sizeclass="6" type="collection">
         <element label="Prefixo Agência" max_length="40" name="agencia" type="string"/>
         <element label="Arquivo" mandatory="true" max_length="40" name="arquivo" type="file_attachment"/>
         <element label="CPF Cliente" max_length="14" name="cpf_cliente" type="string"/>
