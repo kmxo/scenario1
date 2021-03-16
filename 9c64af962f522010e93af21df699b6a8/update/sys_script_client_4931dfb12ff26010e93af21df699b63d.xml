@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Inibe text area de pareceres ainda não preenchidos.</description>
+        <description>Inibe pareceres para o usuario que cadastra a sumula.</description>
         <field>arquivo</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
@@ -12,18 +12,57 @@
         <order/>
         <script><![CDATA[function onLoad() {
 	
-	var parecer = g_form.getValue('parecer1').length;
-	//alert(parecer);
+	var parecer1 = g_form.getValue('parecer1').length;
+	var parecer2 = g_form.getValue('parecer2').length;
+	//var parecer3 = g_form.getValue('parecer3').length;
 	
-   if (parecer == 0) {
+	var situacao = g_form.getValue('situacao');
+	var currentUser = g_user.userID;
+   
+   //Se situação da Súmula = Em Cadastramento
+   if (situacao == 1) {
+	  //Inibe os três pareceres de votação caso a súmula esteja Em Construção.
+      g_form.setDisplay('parecer1', false);
       g_form.setDisplay('parecer2', false);
       g_form.setDisplay('parecer3', false);      
+	  g_form.setDisplay('responsavel1', false);      
+	  g_form.setDisplay('responsavel2', false);      
+	  g_form.setDisplay('responsavel3', false);      
+      g_form.setDisplay('u_cbparecer1', false);
       g_form.setDisplay('u_cbparecer2', false);
       g_form.setDisplay('u_cbparecer3', false);
-   } 
-   //g_form.setReadonly('parecer1', true);
-   //g_form.setReadonly('u_cbparecer1', true);
-
+	   //Popula campo Responsável BB Consórcio com o usuário logado
+	   g_form.setValue('responsavel_bb_consorcio', currentUser);
+   } else if (situacao == 2) {
+	 //Nao houve Primeito Parecer
+     if (parecer1 == 0) {
+		 //Popula usuario logado e seta campos obrigatórios.
+		 g_form.setValue('responsavel1', currentUser);
+		 g_form.setMandatory('parecer1', true);
+		 g_form.setMandatory('u_cbparecer1', true);
+		 //Inibe outros pareceres nao utilizados.
+		 g_form.setDisplay('parecer2', false);
+         g_form.setDisplay('parecer3', false);      
+	     g_form.setDisplay('responsavel2', false);      
+	     g_form.setDisplay('responsavel3', false);      
+         g_form.setDisplay('u_cbparecer2', false);
+         g_form.setDisplay('u_cbparecer3', false);
+		 
+	 } else if (parecer2 == 0) { //Houve primeiro voto mas nao houve o segundo
+		 //Protege Primeiro Voto
+		 g_form.setReadOnly('parecer1',true);
+		 g_form.setReadOnly('u_cbparecer1',true);
+		 //Popula usuario logado e seta campos obrigatórios.
+		 g_form.setValue('responsavel2', currentUser);
+		 g_form.setMandatory('parecer2', true);
+		 g_form.setMandatory('u_cbparecer2', true);
+		 //Inibe outros pareceres nao utilizados.
+         g_form.setDisplay('parecer3', false);      
+	     g_form.setDisplay('responsavel3', false);      
+         g_form.setDisplay('u_cbparecer3', false);
+				
+	 }
+   }
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -32,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4931dfb12ff26010e93af21df699b63d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>[Sumula] Inibe Parecer Vazio</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
@@ -40,7 +79,7 @@
         <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
         <sys_update_name>sys_script_client_4931dfb12ff26010e93af21df699b63d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-10 23:36:45</sys_updated_on>
+        <sys_updated_on>2021-03-16 02:11:09</sys_updated_on>
         <table>x_583689_scenario1_contato</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="9e2079ef2f722010e93af21df699b694" sys_domain="global" table="x_583689_scenario1_contato" version="3" view="Cadastramento">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>responsavel_bb_consorcio</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 01:22:13</sys_created_on>
+            <sys_id>1e2079ef2f722010e93af21df699b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_583689_scenario1_contato" sys_domain="global" view="fe996a612fb62010e93af21df699b6a8">9e2079ef2f722010e93af21df699b694</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 01:22:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_583689_scenario1_contato</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 01:22:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e2079ef2f722010e93af21df699b694</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_583689_scenario1_contato</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Scenario1" source="x_583689_scenario1">9c64af962f522010e93af21df699b6a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scenario1">9c64af962f522010e93af21df699b6a8</sys_scope>
+            <sys_update_name>sys_ui_section_9e2079ef2f722010e93af21df699b694</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 01:22:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Cadastramento" name="Cadastramento">fe996a612fb62010e93af21df699b6a8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
