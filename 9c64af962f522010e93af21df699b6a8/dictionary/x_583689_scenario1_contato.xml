@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Súmula" max_length="40" name="x_583689_scenario1_contato" sizeclass="7" type="collection">
+    <element label="Súmula" max_length="40" name="x_583689_scenario1_contato" sizeclass="8" type="collection">
         <element label="Prefixo Agência" max_length="40" name="agencia" type="string"/>
         <element label="Arquivo" mandatory="true" max_length="40" name="arquivo" type="file_attachment"/>
         <element label="CPF Cliente" max_length="14" name="cpf_cliente" type="string"/>
@@ -11,6 +11,9 @@
         <element label="Parecer BB Consórcio" mandatory="true" max_length="4000" name="parecer_bb_consorcio" type="string"/>
         <element label="Quantidade Aprovações" max_length="40" name="qtd_aprovacoes" type="integer"/>
         <element label="Quantidade Rejeições" max_length="40" name="qtd_rejeicoes" type="integer"/>
+        <element label="Responsável" max_length="32" name="responsavel1" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Responsável" max_length="32" name="responsavel2" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Responsável" max_length="32" name="responsavel3" read_only="true" reference="sys_user" type="reference"/>
         <element label="Responsável BB Consórcio" max_length="32" name="responsavel_bb_consorcio" read_only="true" reference="sys_user" type="reference"/>
         <element choice="3" default="1" label="Situação" max_length="40" name="situacao" type="choice">
             <choice>
@@ -52,6 +55,15 @@
         </element>
         <index name="index">
             <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="responsavel3"/>
+        </index>
+        <index name="index3">
+            <element name="responsavel2"/>
+        </index>
+        <index name="index4">
+            <element name="responsavel1"/>
         </index>
         <index name="index5">
             <element name="responsavel_bb_consorcio"/>
