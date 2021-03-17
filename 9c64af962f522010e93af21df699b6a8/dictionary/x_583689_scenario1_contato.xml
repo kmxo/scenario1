@@ -14,7 +14,7 @@
         <element label="Responsável" max_length="32" name="responsavel1" read_only="true" reference="sys_user" type="reference"/>
         <element label="Responsável" max_length="32" name="responsavel2" read_only="true" reference="sys_user" type="reference"/>
         <element label="Responsável" max_length="32" name="responsavel3" read_only="true" reference="sys_user" type="reference"/>
-        <element label="Responsável BB Consórcio" max_length="32" name="responsavel_bb_consorcio" read_only="true" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserDisplayName();" label="Responsável BB Consórcio" max_length="32" name="responsavel_bb_consorcio" read_only="true" reference="sys_user" type="reference"/>
         <element choice="3" default="1" label="Situação" max_length="40" name="situacao" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Em Construção" language="pb" sequence="1" value="1"/>
